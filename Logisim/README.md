@@ -1,4 +1,4 @@
-Automatic Door Controller
+### Automatic Door Controller
 - The circuit uses buzzer JAR library as an alarm, so that needs to be loaded upon downloading the zip file.
 - A popup will be shown to locate the buzzer.jar on your desktop/laptop.
 - Locate the buzzer.jar file by browsing in your PC.
