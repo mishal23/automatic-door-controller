@@ -34,7 +34,7 @@ module Verilog_125_254;
 			  yt1;			// NextState
 	
 	//DataFlow Modelling
-	/*
+	
 	// Calling the main module
 	VerilogDM_125_254 f(bt,yt1,r2m,m2r,l2m,m2l,alarm,pa,pp,mo,r,l,m,lk,clk,reset,yt);
 	
@@ -43,10 +43,10 @@ module Verilog_125_254;
 		$dumpfile("VerilogDM-125-254.vcd");
 		$dumpvars(0,Verilog_125_254);
 	end
-	*/
+	
 	
 	//Behavorial Modelling
-	
+	/*
 	// Calling the main module
 	VerilogBM_125_254 f(bt,yt1,r2m,m2r,l2m,m2l,alarm,pa,pp,mo,r,l,m,lk,clk,reset,yt);
 	
@@ -55,7 +55,7 @@ module Verilog_125_254;
 		$dumpfile("VerilogBM-125-254.vcd");
 		$dumpvars(0,Verilog_125_254);
 	end
-	
+	*/
 	
 	// Toggle the input clock after every 10, initial clock set to 1
 	initial begin

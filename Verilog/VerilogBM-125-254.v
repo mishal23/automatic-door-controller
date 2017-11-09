@@ -57,7 +57,7 @@ calculates nextstate and output value*/
 
 
 module door(output bt,
-			output[1:0] yt1,
+			output[1:0] yt1,ws
 			output 	r2l,
 					l2r,
 			input 	pa,

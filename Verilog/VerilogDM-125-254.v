@@ -17,8 +17,6 @@
 								 module is also called to get the desired output of motors based on current state and input.
 */
 
-
-
 `include "Verilog-125-254.v"
 module VerilogDM_125_254(output bt,    	  	//bolt lock
 						 output [1:0]yt1, 	//door nextstate
